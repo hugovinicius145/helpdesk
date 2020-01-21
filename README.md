@@ -14,7 +14,7 @@
     <li>
         <ul>
             <li>
-            ```
+            '''
             !includedir /etc/mysql/conf.d/
             !includedir /etc/mysql/mysql.conf.d/
             [client]
@@ -22,7 +22,7 @@
             user = nome_de_usuario
             password = sua_senha
             default-character-set = utf8
-            ```
+            '''
             </li>
         </ul>
     </li>
@@ -30,6 +30,7 @@
 </ul>
 
 <h3>Configuração da API</h3>
+
 <ul>
     <li>Crie um Ambiente Virtual Python:</li>
     > python3 -m venv venv
@@ -47,3 +48,4 @@
     > python manage.py runserver
 
 </ul>
+
